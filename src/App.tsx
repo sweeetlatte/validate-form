@@ -62,7 +62,7 @@ function App() {
         "Password should be 8-20 characters and include at least 1 letter, 1 number, and 1 special character.",
       required: true,
       pattern:
-        "^(?=.*[a-zA-Z])(?=.*d)(?=.*[!@#$%^&*()_+])[A-Za-zd][A-Za-zd!@#$%^&*()_+]{8,20}$",
+        "^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$",
     },
     {
       id: 5,
